@@ -1,0 +1,101 @@
+<style>
+  body {
+    background: #293462;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 52%;
+  }
+  
+  .upper-circle {
+    background: #FE5F55;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 100px 100px 50px 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .top-circle {
+    position: absolute;
+    top: -20;
+    right: 49%;
+    width: 43%;
+    background: #FFF1C1;
+    aspect-ratio: 1.3 / 1;
+    transform: rotate(150deg);
+    border-radius: 50%;
+  }
+  .right {
+    top: -20;
+    left: 49%;
+    transform: rotate(-150deg);
+  }
+  
+  .lower {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 51%;
+    background: #FE5F55;
+	border-radius: 0 0 45px 45px;
+  }
+  
+  .eye-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 45%;
+  }
+  
+  .eye {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    background: #FFF1C1;
+    border-radius: 50%;
+  }
+  
+  .smile-container {
+    position: absolute;
+    bottom: 20;
+    margin: 0 auto;
+    width: 100%;
+    height: 10;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .smile {
+    background: #FFF1C1;
+    border-radius: 20px;
+    width: 21%;
+    height: 10;
+  }
+</style>
+
+
+<div class="container">
+  <div class="upper-circle">
+    <div class="top-circle"></div>
+    <div class="top-circle right"></div>
+    <div class="eye-container">
+	    <div class="eye"></div>
+	     <div class="eye"></div>
+    </div>
+    <div class="smile-container">
+      <div class="smile"></div>
+    </div>
+  </div>
+</div>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
